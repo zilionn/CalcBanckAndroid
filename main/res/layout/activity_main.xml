@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RadioGroup
+        android:id="@+id/radioGroupTipoConta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radioContaPoupanca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_conta_poupanca" />
+        <RadioButton
+            android:id="@+id/radioContaEspecial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_conta_especial" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editTextCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_cliente" />
+
+    <EditText
+        android:id="@+id/editTextNumeroConta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_numero_conta" />
+
+    <EditText
+        android:id="@+id/editTextSaldo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_saldo" />
+
+    <EditText
+        android:id="@+id/editTextDiaRendimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_dia_rendimento"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/editTextLimite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_limite"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonCriarConta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_criar_conta" />
+
+
+</LinearLayout>

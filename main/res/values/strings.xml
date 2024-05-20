@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CalcBank</string>
+    <string name="radio_conta_poupanca">Conta Poupança</string>
+    <string name="radio_conta_especial">Conta Especial</string>
+    <string name="hint_cliente">Cliente</string>
+    <string name="hint_numero_conta">Número da Conta</string>
+    <string name="hint_saldo">Saldo</string>
+    <string name="hint_dia_rendimento">Dia de Rendimento</string>
+    <string name="hint_limite">Limite</string>
+    <string name="button_criar_conta">Criar Conta</string>
+    <string name="msg_conta_poupanca_criada">Conta Poupança criada.</string>
+    <string name="msg_conta_especial_criada">Conta Especial criada.</string>
+    <string name="msg_saldo_insuficiente">Saldo insuficiente.</string>
+    <string name="msg_limite_excedido">Saldo insuficiente e limite excedido.</string>
+</resources>
