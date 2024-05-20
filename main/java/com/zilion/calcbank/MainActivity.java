@@ -63,12 +63,10 @@ public class MainActivity extends AppCompatActivity {
         if (radioContaPoupanca.isChecked()) {
             int diaRendimento = Integer.parseInt(editTextDiaRendimento.getText().toString());
             ContaPoupanca contaPoupanca = new ContaPoupanca(cliente, numConta, saldo, diaRendimento);
-            // Salve ou manipule a contaPoupanca conforme necessário
             Toast.makeText(this, R.string.msg_conta_poupanca_criada, Toast.LENGTH_SHORT).show();
         } else if (radioContaEspecial.isChecked()) {
             float limite = Float.parseFloat(editTextLimite.getText().toString());
             ContaEspecial contaEspecial = new ContaEspecial(cliente, numConta, saldo, limite);
-            // Salve ou manipule a contaEspecial conforme necessário
             Toast.makeText(this, R.string.msg_conta_especial_criada, Toast.LENGTH_SHORT).show();
         }
     }
